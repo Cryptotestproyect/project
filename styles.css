@@ -1,0 +1,109 @@
+.img-logo{
+    width: 250px;
+}
+.icons{
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.tam{
+    left: 11%;
+    width: 80vw ;
+    height: 500px;
+    
+}
+.tamm{
+    left: 15%;
+    width: 80vw ;
+    height: 500px;
+}
+.card-img-top {
+    width: 80%;
+    margin: auto;
+}
+.carousel__elemento{
+    margin: 10px;
+}
+
+.position{
+    transform: translate(200px,-20px);
+    
+}
+
+.carousel__siguiente{
+
+    
+    transform: translate(70rem , -13.5rem);
+    top: 10px;
+    right:-0px;
+
+}
+.Productos-destacados{
+    margin-top: 20px;
+    text-align: center;
+    color: #023E85;
+    font-size: 50px;
+    transform: translate(0,15px);
+}
+#card-chat{
+    width:18rem;
+    transform: translate(-250px,-500px);
+}
+
+
+.carousel__anterior{
+    transform: translate(-2.5rem , 15rem);
+    
+}
+@media (max-width:1199px) {
+    .carousel__siguiente{
+        transform: translate(59rem , -10rem);
+        top: 10px;
+        right:-0px;
+        
+    }
+        
+    
+    
+    .carousel__anterior{
+        transform: translate(-2.5rem , 12.8rem);
+        
+    }
+}
+
+@media (max-width:991px) {
+    .carousel__siguiente{
+        transform: translate(43.5rem , -22rem);
+        top: 10px;
+        right:-0px;
+    
+    }
+        
+    
+    .carousel__anterior{
+        transform: translate(-1.8rem , 15rem);
+        
+    }
+    
+    
+}
+@media (max-width:767px) {
+    .carousel__siguiente{
+        display: none;
+    
+    }
+
+    .carousel__anterior{
+        display: none;
+        
+    }
+}
+
+
+/*ICONOS*/
+
+
+
+
+/*TEMPLATES*/
+
